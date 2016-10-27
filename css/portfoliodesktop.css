@@ -1,0 +1,201 @@
+/*Â Â html styles */
+
+body, html {
+	background-image: url("../images/hearts2.jpg");
+	font-family:sans-serif;
+	margin:auto;
+	line-height: 1.3;
+}
+/* header styles */
+header {
+	text-align: center;
+}
+
+/* header */
+img.header {
+	width: 75%;
+Â Â Â Â height: 20%;
+
+}
+/* image headings in article styles */
+.headings {
+	height:15%;
+	width:25%;
+}
+
+/* section element with links - styles */
+
+.about a {
+	background-color: rgba(176, 129, 121, 0.80);
+}
+
+.about a:hover {
+	background-color: rgb(176, 129, 121);
+}
+
+.work a {
+	background-color: rgba(153, 76, 175, 0.75);
+}
+
+.work a:hover {
+	background-color: rgb(153, 76, 175);
+}
+
+.contact a {
+	background-color: rgba(93, 168, 175, 0.80);
+}
+
+.contact a:hover {
+	background-color: rgb(93, 168, 175);
+}
+
+.other a {
+	background-color: rgba(176, 94, 126, 0.80);
+
+}
+
+.other a:hover {
+	background-color: rgb(176, 94, 126);
+
+}
+#other {
+	width: 40%;
+}
+.biglink {
+	width:60%;
+}
+/* section element styling */
+section {
+	float:left;
+	margin: 1%;
+	margin-top: 0%;
+	padding-top: 0%;
+	position:fixed;
+}
+/* more styling for section element */
+ul.nav>li {
+	display:block;
+	margin-bottom:8%;
+	margin-left:2%;
+	text-align: center;
+}
+
+ul.nav a {
+	border-radius: 20px;
+	display: block;
+	padding: 50px 20px;
+	text-decoration: none;
+}
+
+
+td {
+	padding-right: 1%;
+}
+/* links */
+a:link {
+	color:white;
+}
+
+a:active {
+	background-color: #f2e5ff;
+}
+
+a:visited {
+	color:white;
+}
+
+.aboutlinks a:hover {
+	text-decoration:none;
+	display: block;
+	background-color: purple;
+	color: white;
+	border-radius: 10px;
+	padding: 5%;
+}
+
+a.aboutlinks:link {
+	color:rgb(204, 0, 153);
+}
+
+a.aboutlinks:visited {
+	color: purple;
+}
+
+a:hover img.workpic {
+	background-color:rgba(218, 182, 207, 0.95); 
+}
+
+.coollinks a {
+	color:purple;
+}
+
+.coollinks a:hover {
+	text-decoration:none;
+	display: block;
+	background-color: purple;
+	color: white;
+	border-radius: 10px;
+	padding: 5%;
+}
+
+img.workpic {
+	background-color:rgba(218, 182, 207, 0.15); 
+}
+
+section {
+	bottom: 100px;
+}
+/* Styling article element */
+article {
+	background-color: rgba(250, 244, 253, .80);
+	border-radius: 20px 20px 0 0 ;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-right:5%;
+	padding-bottom: 1%;
+	margin-bottom:6%;
+	margin-right: 15%;
+	margin-left: 25%;
+	float:left;
+	clear: left;
+}
+
+/* Styling for My Work Table */
+img.workpic {
+	height:40%;
+	width:100%;
+}
+td {
+	padding-bottom: 1%;
+
+}
+
+/* P element styling... */
+p {
+	padding-top: 2%;
+	padding-bottom:2%;
+}
+
+/* About Me Image - me */
+img.me {
+	width: 25%;
+	border-radius: 10px;
+	float:right;
+}
+
+/* footer Styles */
+footer {
+	padding: 1%;
+	background-color: #55136C;
+	width: 100%;
+	height: 70px;
+	float:left;
+	clear:left;
+	text-align:center;
+	position: fixed;
+	bottom:0;
+
+}
+.foottag {
+	padding:1%;
+}
