@@ -11,6 +11,11 @@ header {
 	text-align: center;
 }
 
+h1 {
+	color: #0097A7;
+	font-size: 80px;
+}
+
 /* header */
 img.header {
 	width: 75%;
